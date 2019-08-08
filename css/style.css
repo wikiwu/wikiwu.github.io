@@ -7,12 +7,23 @@
 
 
 body {
-  font-family: "Karla", Arial, sans-serif;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*added*/
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  /*added*/
+  font-family: "Cairo", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
   background: #fafafa;
-  color: gray; }
+  color: '#333333'; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -29,20 +40,20 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #2c30aa;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: #2c30aa; }
   a:focus, a:active {
     outline: none; }
 
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Karla", Arial, sans-serif; }
+  font-family: "Cairo", Arial, sans-serif; }
 
 ul, ol {
   display: block;
@@ -76,11 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1); }
+}
   .menu-show #wcwu-page {
     -webkit-transform: scale(0.99);
     -moz-transform: scale(0.99);
@@ -199,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #wcwu-main-nav ul li.active a {
-        color: #CA82F8; }
+        color: #2c30aa; }
   #wcwu-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -983,9 +990,9 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: #2c30aa;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid #2c30aa; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #d49af9 !important;
     border-color: #d49af9 !important; }
@@ -994,7 +1001,7 @@ header {
     color: #4d4d4d;
     border: 1px solid #d9d9d9; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #CA82F8;
+      background: #2c30aa;
       color: #fff; }
 
 .btn-success {
@@ -1224,7 +1231,7 @@ header {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #CA82F8; }
+      color: #2c30aa; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1256,7 +1263,7 @@ input[type="text"] {
 
 .wcwu-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #2c30aa; }
 
 #footer {
   padding: 8em 0;
@@ -1273,7 +1280,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.wcwu-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: #2c30aa; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
