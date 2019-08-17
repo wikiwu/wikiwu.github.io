@@ -111,7 +111,7 @@ a:focus {
 
 .section-title {
   position: relative;
-  padding-bottom: 62px;
+  padding-bottom: 42px;
   text-align: center;
 }
 
@@ -208,9 +208,9 @@ a:focus {
   padding-top: 6px;
 }
 
-.navbar-default .navbar-brand .fa {
-  color: #000;
-  font-size: 42px;
+.brand-icon {
+  width: 40px;
+  height: 40px;
 }
 
 .navbar-default .navbar-nav li a {
