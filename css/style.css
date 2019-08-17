@@ -426,6 +426,12 @@ a:focus {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+#single-project hr {
+  width: 100px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
